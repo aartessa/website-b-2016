@@ -1,0 +1,76 @@
+@font-face{
+	font-family: 'norwester-reg';
+	src: url('../fonts/norwester.eot');
+	src: url('../fonts/norwester.eot?iefix') format('eot'),
+	     url('../fonts/norwester.woff') format('woff'),
+	     url('../fonts/norwester.ttf') format('truetype'),
+	     url('../fonts/norwester.svg#webfont') format('svg');
+}
+
+@font-face {
+    font-family: 'sofia_light';
+    src: url('../fonts/SofiaProLiCond-webfont.eot');
+    src: url('../fonts/SofiaProLiCond-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SofiaProLiCond-webfont.woff2') format('woff2'),
+         url('../fonts/SofiaProLiCond-webfont.woff') format('woff'),
+         url('../fonts/SofiaProLiCond-webfont.ttf') format('truetype'),
+         url('../fonts/SofiaProLiCond-webfont.svg#sofia_pro_condensedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sofia_prolight';
+    src: url('../fonts/SofiaProLight-webfont.eot');
+    src: url('../fonts/SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SofiaProLight-webfont.woff2') format('woff2'),
+         url('../fonts/SofiaProLight-webfont.woff') format('woff'),
+         url('../fonts/SofiaProLight-webfont.ttf') format('truetype'),
+         url('../fonts/SofiaProLight-webfont.svg#sofia_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?ayqa68');
+    src:    url('../fonts/icomoon.eot?ayqa68#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?ayqa68') format('truetype'),
+        url('../fonts/icomoon.woff?ayqa68') format('woff'),
+        url('../fonts/icomoon.svg?ayqa68#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-about:before {
+    content: "\e900";
+}
+.icon-mail:before {
+    content: "\e901";
+}
+.icon-tumblr:before {
+    content: "\e902";
+}
+.icon-twitter:before {
+    content: "\e903";
+}
+.icon-work:before {
+    content: "\e904";
+}
